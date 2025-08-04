@@ -1,0 +1,74 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.header {
+  background: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.header ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: #6C63FF;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: white;
+  color: #6C63FF;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: #fff;
+}
+
+.feature-box {
+  background: #eaeaea;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
